@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Home screen widget -->
+    <string name="widget_label_2x2">Фото 2×2</string>
+    <string name="widget_label_3x2">Фото 3×2</string>
+    <string name="widget_label_2x3">Фото 2×3</string>
+    <string name="widget_label_3x3">Фото 3×3</string>
+    <string name="widget_label_4x2">Фото 4×2</string>
+    <string name="widget_label_4x3">Фото 4×3</string>
+    <string name="widget_description">Любимые фото прямо на главном экране</string>
+    <string name="widget_setup">Нажмите, чтобы настроить</string>
+    <string name="widget_content_description">%1$s, фото %2$d из %3$d</string>
+    <string name="default_widget_name">Новый виджет</string>
+
+    <!-- Common actions -->
+    <string name="action_settings">Настройки</string>
+    <string name="action_view_list">Показать списком</string>
+    <string name="action_view_grid">Показать сеткой</string>
+    <string name="action_close">Закрыть</string>
+    <string name="action_save">Сохранить</string>
+    <string name="navigate_up">Назад</string>
+    <string name="cancel">Отмена</string>
+
+    <!-- Gallery -->
+    <plurals name="home_active">
+        <item quantity="one">%d виджет активен</item>
+        <item quantity="few">%d виджета активны</item>
+        <item quantity="many">%d виджетов активны</item>
+        <item quantity="other">%d виджета активны</item>
+    </plurals>
+    <string name="home_total">всего %1$d</string>
+    <string name="new_widget">Новый виджет</string>
+    <string name="empty_title">Виджетов пока нет</string>
+    <string name="empty_body">Выберите любимые фото, подберите рамку и поставьте их на главный экран.</string>
+    <string name="empty_action">Создать виджет</string>
+    <string name="card_not_added">Не на главном экране</string>
+    <plurals name="photo_count">
+        <item quantity="one">%d фото</item>
+        <item quantity="few">%d фото</item>
+        <item quantity="many">%d фото</item>
+        <item quantity="other">%d фото</item>
+    </plurals>
+    <string name="menu_more">Действия с виджетом «%1$s»</string>
+    <string name="menu_edit">Изменить</string>
+    <string name="menu_add_to_home">На главный экран</string>
+    <string name="menu_duplicate">Дублировать</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="delete_title">Удалить «%1$s»?</string>
+    <string name="delete_body">Фото этого виджета будут удалены из приложения. Оригиналы в галерее останутся.</string>
+    <string name="delete_body_active">Виджет стоит на главном экране — там останется заглушка, пока вы не настроите его заново. Оригиналы в галерее останутся.</string>
+    <string name="delete_confirm">Удалить</string>
+    <string name="copy_name">%1$s (копия)</string>
+    <string name="duplicated">Виджет продублирован</string>
+    <string name="deleted">Виджет удалён</string>
+    <string name="saved">Виджет обновлён</string>
+
+    <!-- Add to home screen -->
+    <string name="pin_title">На главный экран</string>
+    <string name="pin_subtitle">Выберите размер. Потом его можно изменить прямо на главном экране.</string>
+    <string name="pin_action">Добавить</string>
+    <string name="pin_unsupported">Лаунчер не умеет добавлять виджеты из приложений. Зажмите пустое место на главном экране, откройте «Виджеты» и найдите Living Gallery.</string>
+
+    <!-- Editor -->
+    <string name="editor_title_new">Новый виджет</string>
+    <string name="editor_title_edit">Редактор</string>
+    <string name="live_preview">Живое превью</string>
+    <string name="live_preview_need_photos">Добавьте хотя бы два фото, чтобы запустить показ</string>
+    <string name="preview_photo">Фото №%1$d</string>
+    <string name="preview_empty">Добавьте фото</string>
+    <string name="adjust_photo">Настроить кадр</string>
+    <string name="field_name">Название виджета</string>
+    <string name="tab_photos">Фото</string>
+    <string name="tab_frame">Рамка</string>
+    <string name="tab_border">Обводка</string>
+    <string name="tab_tones">Тона</string>
+    <string name="tab_schedule">Смена</string>
+    <string name="discard_title">Отменить изменения?</string>
+    <string name="discard_body">Правки этого виджета не сохранятся.</string>
+    <string name="discard_confirm">Не сохранять</string>
+    <string name="keep_editing">Продолжить</string>
+    <string name="error_too_many">Можно добавить не больше %1$d фото</string>
+    <string name="error_import">Некоторые фото не удалось открыть</string>
+    <string name="error_picker">Не найдено приложение для выбора фото</string>
+    <string name="error_save">Не удалось сохранить виджет. Попробуйте ещё раз.</string>
+
+    <!-- Photos -->
+    <string name="photos_title">Фото</string>
+    <string name="photos_count">%1$d из %2$d</string>
+    <string name="add_photos">Добавить</string>
+    <string name="pick_photos">Выберите фото</string>
+    <string name="photos_empty">Добавьте до %1$d фото из галереи или Google Фото</string>
+    <string name="photos_hint">Нажмите на фото, чтобы посмотреть его. Удерживайте и перетащите, чтобы поменять порядок.</string>
+    <string name="photo_item">Фото %1$d</string>
+    <string name="photo_preview_action">показать</string>
+    <string name="remove_photo">Убрать фото %1$d</string>
+
+    <!-- Frame -->
+    <string name="frame_title">Рамка</string>
+    <string name="frame_circle">Круг</string>
+    <string name="frame_square">Квадрат</string>
+    <string name="frame_rounded">Скруглённая</string>
+    <string name="frame_arch">Арка</string>
+    <string name="frame_cookie">Печенье</string>
+    <string name="frame_clover">Клевер</string>
+
+    <!-- Border -->
+    <string name="border_title">Обводка</string>
+    <string name="border_width">Толщина: %1$d dp</string>
+    <string name="border_color">Цвет</string>
+    <string name="tint_auto">Из фото</string>
+    <string name="tint_white">Белый</string>
+    <string name="tint_black">Чёрный</string>
+    <string name="tint_sky">Небо</string>
+    <string name="tint_rose">Роза</string>
+    <string name="tint_sand">Песок</string>
+    <string name="tint_mint">Мята</string>
+    <string name="corner_title">Скругление углов</string>
+    <string name="corner_value">%1$d dp</string>
+    <string name="corner_unavailable">У рамки «%1$s» свои углы</string>
+
+    <!-- Color tones -->
+    <string name="tones_title">Цветовой тон</string>
+    <string name="tone_original">Оригинал</string>
+    <string name="tone_mono">Ч/б</string>
+    <string name="tone_vivid">Ярко</string>
+    <string name="tone_dramatic">Драма</string>
+    <string name="tone_warm">Тепло</string>
+    <string name="tone_cool">Холод</string>
+    <string name="tone_sepia">Сепия</string>
+    <string name="tone_fade">Пастель</string>
+    <string name="tone_noir">Нуар</string>
+
+    <!-- Schedule -->
+    <string name="schedule_title">Смена фото</string>
+    <string name="schedule_body">Фото на главном экране меняются сами.</string>
+    <string name="schedule_need_photos">Добавьте хотя бы два фото, чтобы они сменялись по расписанию.</string>
+    <string name="interval_off">Выкл.</string>
+    <string name="interval_15m">15 мин</string>
+    <string name="interval_30m">30 мин</string>
+    <string name="interval_1h">1 час</string>
+    <string name="interval_3h">3 часа</string>
+    <string name="interval_6h">6 часов</string>
+    <string name="interval_12h">12 часов</string>
+    <string name="interval_1d">Раз в день</string>
+    <string name="order_title">Порядок</string>
+    <string name="order_sequential">По порядку</string>
+    <string name="order_shuffle">Вперемешку</string>
+    <string name="tap_title">По нажатию</string>
+    <string name="tap_next">Следующее фото</string>
+    <string name="tap_open">Открыть приложение</string>
+    <string name="tap_single_photo">Если фото одно, нажатие на виджет открывает приложение.</string>
+
+    <!-- Adjust photo -->
+    <string name="adjust_title">Кадрирование</string>
+    <string name="adjust_hint">Разведите пальцы, чтобы приблизить, и перетащите кадр. Двойное нажатие — быстрое приближение.</string>
+    <string name="adjust_reset">Сбросить</string>
+    <string name="adjust_done">Готово</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_appearance">Оформление</string>
+    <string name="settings_theme">Тема</string>
+    <string name="theme_system">Как в системе</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="settings_dynamic">Цвета обоев</string>
+    <string name="settings_dynamic_body">Подстроить цвета приложения под обои</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_widgets">Виджеты</string>
+    <string name="settings_refresh">Обновить виджеты</string>
+    <string name="settings_refresh_body">Перерисовать все виджеты на главном экране</string>
+    <string name="refreshed">Виджеты обновлены</string>
+    <string name="settings_about">О приложении</string>
+    <string name="settings_version">Версия %1$s</string>
+
+    <!-- Widget setup -->
+    <string name="configure_title">Выберите виджет</string>
+</resources>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Living Gallery</string>
+
+    <!-- Home screen widget -->
+    <string name="widget_label_2x2">Photo 2×2</string>
+    <string name="widget_label_3x2">Photo 3×2</string>
+    <string name="widget_label_2x3">Photo 2×3</string>
+    <string name="widget_label_3x3">Photo 3×3</string>
+    <string name="widget_label_4x2">Photo 4×2</string>
+    <string name="widget_label_4x3">Photo 4×3</string>
+    <string name="widget_description">Your favorite photos right on the home screen</string>
+    <string name="widget_setup">Tap to set up</string>
+    <string name="widget_content_description">%1$s, photo %2$d of %3$d</string>
+    <string name="default_widget_name">New Widget</string>
+
+    <!-- Common actions -->
+    <string name="action_settings">Settings</string>
+    <string name="action_view_list">Show as list</string>
+    <string name="action_view_grid">Show as grid</string>
+    <string name="action_close">Close</string>
+    <string name="action_save">Save</string>
+    <string name="navigate_up">Back</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Gallery -->
+    <plurals name="home_active">
+        <item quantity="one">%d Widget Active</item>
+        <item quantity="other">%d Widgets Active</item>
+    </plurals>
+    <string name="home_total">%1$d total</string>
+    <string name="new_widget">New Widget</string>
+    <string name="empty_title">No widgets yet</string>
+    <string name="empty_body">Pick a few favorite photos, choose a frame and put them on your home screen.</string>
+    <string name="empty_action">Create widget</string>
+    <string name="card_not_added">Not on home screen</string>
+    <plurals name="photo_count">
+        <item quantity="one">%d photo</item>
+        <item quantity="other">%d photos</item>
+    </plurals>
+    <string name="menu_more">More options for %1$s</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_add_to_home">Add to home screen</string>
+    <string name="menu_duplicate">Duplicate</string>
+    <string name="menu_delete">Delete</string>
+    <string name="delete_title">Delete “%1$s”?</string>
+    <string name="delete_body">Its photos will be removed from the app. The originals in your gallery stay untouched.</string>
+    <string name="delete_body_active">It’s on your home screen and will show a placeholder until you set it up again. The originals in your gallery stay untouched.</string>
+    <string name="delete_confirm">Delete</string>
+    <string name="copy_name">%1$s copy</string>
+    <string name="duplicated">Widget duplicated</string>
+    <string name="deleted">Widget deleted</string>
+    <string name="saved">Widget updated</string>
+
+    <!-- Add to home screen -->
+    <string name="pin_title">Add to home screen</string>
+    <string name="pin_subtitle">Choose a size. You can resize the widget on the home screen later.</string>
+    <string name="pin_action">Add</string>
+    <string name="pin_unsupported">Your launcher can’t add widgets from apps. Long-press the home screen, open Widgets and find Living Gallery.</string>
+
+    <!-- Editor -->
+    <string name="editor_title_new">Create Widget</string>
+    <string name="editor_title_edit">Edit Widget</string>
+    <string name="live_preview">Live Preview</string>
+    <string name="live_preview_need_photos">Add at least two photos to play them</string>
+    <string name="preview_photo">Photo #%1$d</string>
+    <string name="preview_empty">Add photos</string>
+    <string name="adjust_photo">Adjust photo</string>
+    <string name="field_name">Widget Name</string>
+    <string name="tab_photos">Photos</string>
+    <string name="tab_frame">Frame</string>
+    <string name="tab_border">Border</string>
+    <string name="tab_tones">Color Tones</string>
+    <string name="tab_schedule">Schedule</string>
+    <string name="discard_title">Discard changes?</string>
+    <string name="discard_body">Your edits to this widget won’t be saved.</string>
+    <string name="discard_confirm">Discard</string>
+    <string name="keep_editing">Keep editing</string>
+    <string name="error_too_many">You can add up to %1$d photos</string>
+    <string name="error_import">Some photos couldn’t be opened</string>
+    <string name="error_picker">No app for picking photos was found</string>
+    <string name="error_save">Couldn’t save the widget. Try again.</string>
+
+    <!-- Photos -->
+    <string name="photos_title">Photos</string>
+    <string name="photos_count">%1$d of %2$d</string>
+    <string name="add_photos">Add Photos</string>
+    <string name="pick_photos">Choose photos</string>
+    <string name="photos_empty">Add up to %1$d photos from your gallery or Google Photos</string>
+    <string name="photos_hint">Tap a photo to preview it. Long-press and drag to reorder.</string>
+    <string name="photo_item">Photo %1$d</string>
+    <string name="photo_preview_action">preview</string>
+    <string name="remove_photo">Remove photo %1$d</string>
+
+    <!-- Frame -->
+    <string name="frame_title">Frame</string>
+    <string name="frame_circle">Circle</string>
+    <string name="frame_square">Square</string>
+    <string name="frame_rounded">Rounded</string>
+    <string name="frame_arch">Arch</string>
+    <string name="frame_cookie">Cookie</string>
+    <string name="frame_clover">Clover</string>
+
+    <!-- Border -->
+    <string name="border_title">Border</string>
+    <string name="border_width">Width: %1$ddp</string>
+    <string name="border_color">Color</string>
+    <string name="tint_auto">From photo</string>
+    <string name="tint_white">White</string>
+    <string name="tint_black">Black</string>
+    <string name="tint_sky">Sky</string>
+    <string name="tint_rose">Rose</string>
+    <string name="tint_sand">Sand</string>
+    <string name="tint_mint">Mint</string>
+    <string name="corner_title">Corner Radius</string>
+    <string name="corner_value">%1$ddp</string>
+    <string name="corner_unavailable">The %1$s frame has its own corners</string>
+
+    <!-- Color tones -->
+    <string name="tones_title">Color Tones</string>
+    <string name="tone_original">Original</string>
+    <string name="tone_mono">Mono</string>
+    <string name="tone_vivid">Vivid</string>
+    <string name="tone_dramatic">Dramatic</string>
+    <string name="tone_warm">Warm</string>
+    <string name="tone_cool">Cool</string>
+    <string name="tone_sepia">Sepia</string>
+    <string name="tone_fade">Fade</string>
+    <string name="tone_noir">Noir</string>
+
+    <!-- Schedule -->
+    <string name="schedule_title">Change photo</string>
+    <string name="schedule_body">Photos change on their own on the home screen.</string>
+    <string name="schedule_need_photos">Add at least two photos to change them on a schedule.</string>
+    <string name="interval_off">Off</string>
+    <string name="interval_15m">15 min</string>
+    <string name="interval_30m">30 min</string>
+    <string name="interval_1h">1 hour</string>
+    <string name="interval_3h">3 hours</string>
+    <string name="interval_6h">6 hours</string>
+    <string name="interval_12h">12 hours</string>
+    <string name="interval_1d">Daily</string>
+    <string name="order_title">Order</string>
+    <string name="order_sequential">In order</string>
+    <string name="order_shuffle">Shuffle</string>
+    <string name="tap_title">On tap</string>
+    <string name="tap_next">Next photo</string>
+    <string name="tap_open">Open app</string>
+    <string name="tap_single_photo">With a single photo, tapping the widget opens the app.</string>
+
+    <!-- Adjust photo -->
+    <string name="adjust_title">Adjust photo</string>
+    <string name="adjust_hint">Pinch to zoom, drag to move. Double-tap to zoom quickly.</string>
+    <string name="adjust_reset">Reset</string>
+    <string name="adjust_done">Done</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_dynamic">Wallpaper colors</string>
+    <string name="settings_dynamic_body">Tint the app with colors from your wallpaper</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_widgets">Widgets</string>
+    <string name="settings_refresh">Refresh widgets</string>
+    <string name="settings_refresh_body">Redraw every widget on the home screen</string>
+    <string name="refreshed">Widgets refreshed</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version %1$s</string>
+
+    <!-- Widget setup -->
+    <string name="configure_title">Choose a widget</string>
+</resources>
